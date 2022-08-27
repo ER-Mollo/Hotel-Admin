@@ -10,7 +10,7 @@ function Dashboard(){
                     <img src={logo} className="logo"/>
                 </div>
                 <ul>
-                    <li>Dashboard</li>
+                    <li className="active">Dashboard</li>
                     <li>Room List</li>
                     <li>Add Room</li>
                     <li>Booking</li>
@@ -19,8 +19,10 @@ function Dashboard(){
             </div>
             <div className="right">
                 <div className="r-top">
+                   <div className="info">
                     <input placeholder="Search Here..." />
                     <h1>ADMIN</h1>
+                   </div>
                 </div>
                 <div className="r-bottom">
                     7777
