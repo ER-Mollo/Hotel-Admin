@@ -1,0 +1,46 @@
+/* .container{
+    display: grid;
+    grid-template-columns: 20% 90%;
+   
+} */
+*{
+    padding: 0;
+    margin: 0;
+}
+.left {
+    height: 100%;
+    width: 15vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: brown; */
+    background-color: #faf3ef;
+    padding-top: 20px;
+  }
+
+.logo{
+    width:95%;
+}
+.container ul{
+    list-style: none;
+    padding-top: 30%;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.container li{
+    padding: 10% ;
+    font-size: 1.2rem;
+    border-bottom: 1px solid;
+
+}
+
+
+.r-top{
+    background-color: #faf3ef;
+    height: 10vh;
+    
+    
+}
