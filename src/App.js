@@ -1,18 +1,21 @@
 import Login from './components/login';
 import Dashboard from './components/dashboard';
+import RoomList from './components/roomlist';
 
-import { BrowserRouter,Routes, Route } from 'react-router-dom';
+ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
+ 
   return (
-    <BrowserRouter>
+     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Login/>}/>
-        <Route exact path="/" element={<Dashboard/>}/>
-      </Routes>
-    </BrowserRouter>
+         <Route  path="/dashboard" element={<Dashboard/>}/>
+         <Route exact path="/roomlist" element={<RoomList/>}/>
+     </Routes>
+     </BrowserRouter>
 
-  );
+  )
 }
 
 export default App;
