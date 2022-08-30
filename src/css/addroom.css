@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.left {
+    height: 100%;
+    width: 15vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: brown; */
+    background-color: #faf3ef;
+    padding-top: 20px;
+  }
+  
+.logo{
+    width:95%; 
+}
+.container ul{
+    list-style: none;
+    padding-top: 30%;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.container li{
+    padding: 10% ;
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgb(172, 169, 169);
+
+}
+.container li:hover{
+    border-bottom: 2px solid #bd8334;
+}
+
+.r-top{
+    background-color: #faf3ef;
+    height: 12vh;
+    align-items: right;
+    width:100vw;
+    box-shadow: 1px 5px 20px 1px rgb(252, 229, 198);
+    
+   
+    
+}
+.r-top .info{
+    margin-left: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    
+}
+.r-top input{
+    width:40%;
+    border-radius: 17px;
+    border: none;
+    box-shadow: 1px 1px 4px 1px rgb(158, 155, 152);
+  
+    
+}
+.active{
+    background-color: #bd8334;
+}
+.container-box{
+    background-color: #bd8334;
+    width: 30%;
+    height:60vh;
+    margin-left: 600px;
+    display: flex;
+    margin-top: 60px;
+   
+
+   
+}
+
+
+.min-container
+.Text11{
+    margin-left: 600px;
+}
+h2{
+    color:black;
+    justify-content: center;
+    text-align: center;
+}
+.txt{
+    margin-left: 150px;
+    padding: 15px;
+    margin-top: 35px;
+    width: 200px;
+
+}
+.side-pic{
+    height: 320px;
+    width:350px;
+
+}
+select{
+    margin-left: 150px;
+    padding: 15px;
+    margin-top: 35px;
+    width: 232px
+}
+.files{
+    width:200px;
+    height: 200px;
+    margin-left: 135px;
+    padding: 15px;
+    margin-top: 35px;
+}
+
+ 
+    
+
+.side-imag{
+margin-left: 305px;
+    width: 70%;
+    height: 100%;
+ 
+    background-color:#bd8334;
+}
+.add{
+    margin-top: 200px;
+    margin-left: 220px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gray;
+    color:white;
+    border:2px solid white;
+}
+.Text11{
+    margin-left: 200px;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: solid;
+    color:#bd8334;
+    text-shadow: #bd8334;
+    font-size: 20px;
+    
+}
+h2{
+    text-align: center;
+    margin-left: 30px;
+    margin-top:5px;
+    color:white;
+}
