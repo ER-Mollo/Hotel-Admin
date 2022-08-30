@@ -1,0 +1,57 @@
+.login{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+.left-side{
+    background-image: url('../asserts/logo.png');
+    background-size: cover;
+}
+
+.right-side h1{
+    text-align: center;
+}
+.right-side h2{
+    text-align: center;
+}
+
+.right-side{
+    padding: 50px;
+    text-align: center;
+   padding-top: 20%;
+}
+
+.right-side input{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 7px;
+    border: none;
+    padding: 5px;
+}
+.right-side input:hover{
+    border: 1px solid #bd8334;
+}
+.right-side label{
+    padding-top: 20px;
+}
+
+.right-side .button{
+    width: 60%;
+    height: 40px;
+    color: white;
+    background-color: #bd8334;
+    border: none;
+    border-radius: 7px;
+}
+.right-side .button:hover{
+    color: rgba(148, 81, 126, 0.849);
+    background-color: white;
+    border: 1px solid #bd8334;
+}
+.control{
+    padding: 2%;
+    text-align: left;
+}
