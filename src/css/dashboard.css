@@ -66,11 +66,11 @@
 .active{
     background-color: #bd8334;
 }
-<<<<<<< HEAD
+
 h2{
     color:red;
 }
-=======
+
 .active:hover{
     background-color: #bd8334;
 }
@@ -183,4 +183,4 @@ h2{
 .person .name{
     font-weight: 500;
 }
->>>>>>> 86d1142056d281957803f68c31f95f8fcf352262
+
