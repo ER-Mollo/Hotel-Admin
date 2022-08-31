@@ -29,6 +29,9 @@
     padding: 20px;
 
 }
+.admin{
+  color: #bd8334;  
+}
 
 .container li{
     padding: 10% ;
@@ -47,13 +50,14 @@
     align-items: right;
     width:100vw;
     box-shadow: 1px 5px 20px 1px rgb(252, 229, 198);
+    position: fixed;
    
     
 }
 .r-top .info{
     margin-left: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1%;
     
 }
@@ -63,9 +67,40 @@
     border: none;
     box-shadow: 1px 1px 4px 1px rgb(158, 155, 152);
 }
+.r-bottom{
+    margin-left: 15%;
+    padding-left: 0;
+     padding: 100px; 
+
+    border-radius: 1px;
+    color: black;
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+}
 .active{
     background-color: #bd8334;
 }
+
+.row1{
+    margin-left: 15%;
+    padding-left: 0;
+     padding: 100px; 
+
+    border-radius: 1px;
+    color: black;
+  
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+
+
+
 .active:hover{
     background-color: #bd8334;
 }
@@ -178,3 +213,4 @@
 .person .name{
     font-weight: 500;
 }
+
