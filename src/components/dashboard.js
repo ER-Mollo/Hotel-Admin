@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/dashboard.css";
+import { Link } from "react-router-dom";
 import logo from "../asserts/logo.png";
 import room1 from "../asserts/room1.jpg";
 import room2 from "../asserts/room2.jpg";
@@ -7,14 +8,14 @@ import room3 from "../asserts/room3.jpg";
 
 function Dashboard(){
     return(
-        <div className="container">
+        <div className="main">
             <div className="left">
                 <div>
                     <img src={logo} className="logo"/>
                 </div>
                 <ul>
                     <li className="active">Dashboard</li>
-                    <li>Room List</li>
+                    <li >Room List</li>
                     <li>Add Room</li>
                     <li>Booking</li>
                 </ul>
@@ -84,7 +85,7 @@ function Dashboard(){
                             </div>
                         </div>
 
-                    </div>
+                    </div><br></br>
                     <div className="bottom-bottom">
                         <div className="resent">
                             <h3>RESENT BOOKINGS</h3>

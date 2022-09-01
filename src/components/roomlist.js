@@ -1,5 +1,7 @@
 import React from "react";
 import "../css/dashboard.css";
+
+
 import logo from "../asserts/logo.png"
 import room1 from "../images/room1.jpg"
 import Room2 from "../images/Room2.jpg"
@@ -25,8 +27,8 @@ function RoomList(){
                     <img src={logo} className="logo"/>
                 </div>
                 <ul>
-                    <li className="active">Dashboard</li>
-                    <li>Room List</li>
+                    <li >Dashboard</li>
+                    <li className="active">Room List</li>
                     <li>Add Room</li>
                     <li>Booking</li>
                 </ul>

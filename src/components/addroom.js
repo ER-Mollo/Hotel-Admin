@@ -3,6 +3,7 @@ import "../css/dashboard.css";
 import logo from "../asserts/logo.png"
 import pic1 from "../asserts/pic1.jpg"
 import "../css/addroom.css"
+import { Link } from "react-router-dom";
 
 
 
@@ -17,9 +18,9 @@ function AddRoom (){
                     <img src={logo} className="logo"/>
                 </div>
                 <ul>
-                    <li className="active">Dashboard</li>
-                    <li>Room List</li>
-                    <li>Add Room</li>
+                    <li >Dashboard</li>
+                    <li >Room List</li>
+                    <li className="active">Add Room</li>
                     <li>Booking</li>
                 </ul>
                 

@@ -22,7 +22,7 @@
 .logo{
     width:95%;
 }
-.container ul{
+.main ul{
     list-style: none;
     padding-top: 30%;
     text-align: center;
@@ -33,13 +33,13 @@
   color: #bd8334;  
 }
 
-.container li{
+.main li{
     padding: 10% ;
     font-size: 1.2rem;
     border-bottom: 1px solid rgb(172, 169, 169);
 
 }
-.container li:hover{
+.main li:hover{
     border-bottom: 2px solid #bd8334;
     background-color: antiquewhite;
 }
@@ -110,10 +110,12 @@ justify-content: space-between;
 .r-bottom{
     margin-left: 15%;
     padding-top: 5%;
+ 
+ 
 }
 .trending{
     padding: 1%;
-
+    width: 100%;
 
    
 }
@@ -122,6 +124,8 @@ justify-content: space-between;
     padding: 1%;
     border: 1px solid #bd8334;
     justify-content: space-between;
+    width: 100%;
+    
 }
 .trending .list{ 
     justify-content: space-between;
@@ -168,6 +172,7 @@ justify-content: space-between;
  
     display: flex;
     justify-content: space-between;
+    width: 100%;
     padding: 1%;
     
 }
@@ -213,4 +218,10 @@ justify-content: space-between;
 .person .name{
     font-weight: 500;
 }
+
+
+@media screen and (max-width: 500px) {
+    
+    
+  }
 
